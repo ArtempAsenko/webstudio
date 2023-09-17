@@ -1,11 +1,16 @@
 :root{
     --hover-color: #2196F3;
-    --navigation-color: #212121;}
+    --navigation-color: #212121;
+    --navigation-color-link: #757575;
+}
 ul{
  list-style: none;
+ padding: 0;
+ margin: 0;
 }
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 .header-link{
     color: var(--navigation-color);
@@ -19,10 +24,14 @@ a{
 }
 .main-title{
     color: #FFFFFF ;
+    font-size: 44px ;
+    font-weight: 900;
 }
 .button{
     background-color: #2196F3;
     color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
 }
 h2,
 h3{
@@ -40,4 +49,54 @@ p{
 .footer{
     background-color: #2F303A;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
 
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--hover-color);
+}
+.black{
+    color: #000;
+}
+.header-nav{
+    font-size: 14px;
+    font-weight: 500;
+}
+.contacts-link{
+color: var(--navigation-color-link);
+}
+.contacts{
+    font-size: 14px;
+    font-weight: 500;
+}
+.card-title{
+    font-size: 14px ;
+    font-weight: 700 ;
+
+}
+.card-text{
+    font-size: 14px;
+    font-weight: 400;
+}
+.title{
+    font-size: 36px;
+    font-weight: 700;
+}
+.white{
+    color: #FFF;
+}
+footer>a{
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-img{
+    vertical-align:baseline
+}
