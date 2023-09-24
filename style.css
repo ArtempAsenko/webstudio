@@ -28,8 +28,7 @@ a{
     font-weight: 900;
 }
 .button{
-    background-color: #2196F3;
-    color: #FFFFFF;
+    color: var(--hover-color);
     font-size: 16px;
     font-weight: 700;
 }
