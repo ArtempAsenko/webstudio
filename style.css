@@ -158,6 +158,7 @@ footer>a{
     width: 370px;
     height: 294px;
 
+
 }
 .header-list{
     display: flex;
@@ -178,4 +179,5 @@ footer>a{
 }
 .card-list{
     display: flex;
-}
+    justify-content: space-between;
+ }
