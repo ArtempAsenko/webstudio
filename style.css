@@ -181,3 +181,23 @@ footer>a{
     display: flex;
     justify-content: space-between;
  }
+ .footer-list{
+    justify-content: space-between;
+ }
+ 
+ .card-item-photo{
+    width: 370px;
+    height: 404px;
+   
+ }
+ .card-list-photo{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+ }
+ .card-list-button{
+    display: flex;
+    justify-content: center;
+}
