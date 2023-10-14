@@ -24,6 +24,7 @@ a{
 }
 .header-link{
     color: var(--navigation-color);
+    
 }
 .header-link:hover,
 .header-link:focus{
@@ -104,6 +105,7 @@ h1,h2,h3,p{
     font-size: 26px;
     font-weight: 700;
     color: var(--hover-color);
+    margin-right: 93px;
 }
 .black{
     color: #000;
@@ -118,6 +120,10 @@ color: var(--navigation-color-link);
 .contacts{
     font-size: 14px;
     font-weight: 500;
+    display: flex;
+}
+.mail{
+    margin-right: 50px;
 }
 .card-title{
     font-size: 14px ;
@@ -152,4 +158,24 @@ footer>a{
     width: 370px;
     height: 294px;
 
+}
+.header-list{
+    display: flex;
+    width: 281px;
+    justify-content: space-between;
+}
+.logo-wrap{
+    display: flex;
+    align-items: center;
+    
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.card-item{
+    width: 270px;
+}
+.card-list{
+    display: flex;
 }
