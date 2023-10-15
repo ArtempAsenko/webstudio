@@ -42,10 +42,12 @@ padding-bottom: 94px;
 }
 .section3{
     padding-bottom: 94px;
+    background: #FFF;
 }
 .section4{
     padding-top: 94px;
     padding-bottom: 94px;
+    background: #F5F4FA;
 }
 .section5{
     padding-top: 94px;
@@ -157,8 +159,6 @@ footer>a{
 .card-img-work{
     width: 370px;
     height: 294px;
-
-
 }
 .header-list{
     display: flex;
@@ -173,6 +173,7 @@ footer>a{
 .header-wrap{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .card-item{
     width: 270px;
@@ -182,7 +183,10 @@ footer>a{
     justify-content: space-between;
  }
  .footer-list{
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    
+    
  }
  
  .card-item-photo{
@@ -190,10 +194,11 @@ footer>a{
     height: 404px;
    
  }
+ .footer{
+ }
+ /* 
  .card-list-photo{
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
+
     justify-content: center;
    
  }
@@ -201,3 +206,4 @@ footer>a{
     display: flex;
     justify-content: center;
 }
+ */
