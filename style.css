@@ -194,16 +194,18 @@ footer>a{
     height: 404px;
    
  }
- .footer{
- }
- /* 
+ 
+  
  .card-list-photo{
 
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
    
  }
  .card-list-button{
     display: flex;
     justify-content: center;
+    
 }
- */
+ 
