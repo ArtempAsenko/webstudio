@@ -46,15 +46,14 @@ a{
     
 }
 .section1{
-    background-color: #2F303A;
+    background: rgba(47, 48, 58, 0.40);
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center; 
     background-image: url(/img/1/img\(back\).webp);
+    
 }
-.main-sect{
-    background: rgba(47, 48, 58, 0.40);
-}
+
 .section2{
 padding-top: 94px;
 padding-bottom: 94px;
