@@ -51,6 +51,13 @@ a{
     padding-bottom: 200px;
     text-align: center; 
     background-image: url(/img/1/img\(back\).webp);
+    background-repeat: no-repeat;
+    background-position: center;  
+    
+
+     
+}
+.main-sect{
     
 }
 
