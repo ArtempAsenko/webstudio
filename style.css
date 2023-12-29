@@ -316,3 +316,33 @@ footer>a{
 .footer-link3{
     margin-bottom: 9px;
 }
+.icon-header:hover,
+.icon-header:focus{
+ color: var(--hover-color);
+} 
+.icon-header{
+    color: var(--navigation-color-link);
+    width: 10px;
+    height: 16px;
+}
+.icon-team{
+ width: 20px;
+ height: 20px;
+}
+.team-icon{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 30px;
+}
+.company{
+    display: flex;
+}
+.company-div{
+    width: 170px;
+    height: 92px;
+    border: 1px;
+    border-color: #AFB1B8;
+    ;
+}
