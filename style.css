@@ -3,6 +3,7 @@
     --navigation-color: #212121;
     --navigation-color-link: #757575;
     --hover-text-color: #FFFFFF;
+    --icon-color--: #AFB1B8;
     
 }
 .header{
@@ -147,14 +148,23 @@ h1,h2,h3,p{
 .contacts-link{
 color: var(--navigation-color-link);
 }
-.contacts-link{
-    color: var(--navigation-color-link);
-
-}
 .contacts{
     font-size: 14px;
     font-weight: 500;
     display: flex;
+}
+.contacts .contacts-link:hover{
+    color: var(--hover-color);
+}
+.contacts-link:hover .icon-header{
+    fill: var(--hover-color);
+}
+.contacts-link{
+    display: flex;
+    align-items: center;
+}
+.icon-header{
+    margin-right: 10px;
 }
 .mail{
     margin-right: 50px;
@@ -320,29 +330,31 @@ footer>a{
 .icon-header:focus{
  color: var(--hover-color);
 } 
-.icon-header{
-    color: var(--navigation-color-link);
-    width: 10px;
-    height: 16px;
+.social-icon{
+    width: 20px;
+    height: 20px;
 }
-.icon-team{
- width: 20px;
- height: 20px;
-}
-.team-icon{
+.social-list{
     display: flex;
     justify-content: space-between;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 30px;
+    margin-right: 32px;
+    margin-left: 32px;
+    margin-top: 16px;
+    margin-bottom: 30px;
 }
-.company{
+.social-link{
+    fill: var(--icon-color--);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.company-div{
-    width: 170px;
-    height: 92px;
-    border: 1px;
-    border-color: #AFB1B8;
-    ;
+.social-link:hover,
+.social-link:focus{
+    fill: var(--hover-text-color);
+    background-color: var(--hover-color);
 }
+
+
