@@ -305,6 +305,27 @@ footer>a{
     background-position: center;
     padding-bottom: 55px;
 }
+.item-work{
+    position: relative;
+}
+.card-title-work{
+    position: absolute;
+    bottom: 3px;
+    color: var(--hover-text-color);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 14px;  
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(47, 48, 58, 0.80);;
+}
+
 .card-item:nth-child(2)::before{
     background-image: url(clock\ 1.svg);
 }
