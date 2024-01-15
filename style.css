@@ -516,7 +516,6 @@ background-color: var(--hover-color);
     letter-spacing: 0.6px;
 }
 .modal-form-label{
-padding-top: 10px;
 margin-right: 1002px;
 }
 .first-label{
@@ -528,11 +527,12 @@ margin-right: 1002px;
     border: 1px solid rgba(33, 33, 33, 0.20);
     height: 40px;
     background-color: #FFF;
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .coment{
     min-width: 448px;
     resize: none;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
 }
 .coment-title{
     margin-right: 967px;
@@ -549,8 +549,8 @@ margin-right: 1002px;
     width: 200px;
     height: 50px;
     border-radius: 4px;
+    border-color:#188CE8 ;
     background: #188CE8;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #FFF;
     text-align: center;
     font-family: "Roboto";
@@ -558,6 +558,7 @@ margin-right: 1002px;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.96px;
+   
    
 }
 .agree-div{
@@ -574,6 +575,7 @@ margin-right: 1002px;
 }
 .footer-form{
     padding-left: 93px;
+    
 }
 .input-footer{
     width: 358px;
@@ -582,6 +584,7 @@ margin-right: 1002px;
     border: 1px solid rgba(255, 255, 255, 0.30);
     background-color: rgba(33, 150, 243, 0.00);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-right:  12px;
 }
 .form-icon{
     fill: var(--hover-text-color);
@@ -591,7 +594,7 @@ margin-right: 1002px;
     height: 50px;
     background-color: var(--hover-color);
     border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-color: var(--hover-color);
     color: #FFF;
     text-align: center;
     font-family: "Roboto";
@@ -599,9 +602,12 @@ margin-right: 1002px;
     font-weight: 700;
     line-height: 30px; 
     letter-spacing: 0.96px;
+    cursor: pointer;
+
 }
 .modal-form-field{
     position: relative;
+    margin-top: 10px;
 }
 .modal-form-icom{
     position: absolute;
@@ -614,6 +620,40 @@ margin-right: 1002px;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 0.12px;
-    padding-top: 10px;
-    padding-bottom: 4px;
+}
+.modal-form-policy{
+    display: flex;
+}
+.text-checkbox{
+    color: #757575;
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.42px;
+padding-left: 7px;
+}
+.policy-link{
+    color: #2196F3;
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+text-decoration-line: underline;
+}
+
+
+.footer-mail{
+    display: flex;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 0.48px;
+    top:2685px ;
+    left: 760px;
 }
