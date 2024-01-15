@@ -46,7 +46,53 @@
         <section class="section1">
             <div class="container main-sect">
             <h2  class="main-title"> Ефективні рішення для <br>вашого бізнесу</h2> 
-        <button class="button">Замовити послугу</button>
+        <button class="btn-open" data-modal-open>Замовити послугу</button>
+        <div class="backdrop is-hidden"  data-modal>
+            <div class="modal"> 
+              <button type="button" class="btn-close" data-modal-close>
+                    <svg class="icon-back" width="18px" height="18px">
+                        <use href="./img/symbol-defs(back).svg#icon-close-black"></use>
+                    </svg>
+                </button>
+              </button>
+              <form class="modal-form">
+              <p class="modal-form-title">Залиште свої дані, ми вам передзвонимо</p>
+              <div class="modal-form-field">
+                <label for="name" class="modal-form-label first-label">ім'я</label>
+                <input type="text" id="name" class="modal-form-input">
+                <svg class="modal-form-icom person" width="18px" height="18px">
+                    <use href="./img/symbol-defs(back).svg#icon-person-black"></use>
+                </svg>
+              </div>
+              <div class="modal-form-field">
+                <label for="tel" class="modal-form-label">Телефон</label>
+                <input type="tel" id="tel" class="modal-form-input">
+                <svg class="modal-form-icom phone" width="18px" height="18px">
+                    <use href="./img/symbol-defs(back).svg#icon-phone-black"></use>
+                </svg>
+              </div>
+              <div class="modal-form-field">
+                <label for="mail" class="modal-form-label">Пошта</label>
+                <input type="email" id="mail" class="modal-form-input">
+                <svg class="modal-form-icom mail" width="18px" height="18px">
+                    <use href="./img/symbol-defs(back).svg#icon-email-black"></use>
+                </svg>
+              </div>
+              <div class="modal-form-field">
+            <label for="coment" class="coment-title">Коментар</label>
+            <textarea name="coment" id="coment" cols="30" rows="10" class="coment"></textarea>
+            </div>
+
+            <label class="modal-form-policy">
+                <input type="checkbox" class="modal-form-checkbox">
+                <p class="text-checkbox">Погоджуюся з розсилкою та приймаю
+                    <a href="#" class="policy-link">Умови договору</a>
+                </p>
+            </label>
+              <div class="agree-div"><button type="submit" class="agree-btn">Відправити</button></div>
+              </form>
+            </div>
+        </div>
     </div>
         </section>
         <section class="section2">
@@ -305,7 +351,21 @@
                 </li>
           </ul>
         </div>
+        <div class="footer-form">
+            <h2 class="form-title">Підпишіться на розсилку</h2>
+            <label for="mail" class="">E-mail</label>
+            <input type="email" id="mail" class="input-footer">
+            <button class="btn-footer">Підписатися 
+                <svg class="form-icon" width="24px" height="24px">
+                    <use href="./img/symbol-defs.svg#icon-icon-send" >
+
+                    </use>
+                </svg>       
+                 </button>
+        
+        </div>
     </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
