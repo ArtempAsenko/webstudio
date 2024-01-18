@@ -264,7 +264,6 @@ footer>a{
  
   
  .card-list-photo{
-
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -338,7 +337,7 @@ footer>a{
  .card-img-photo{
     vertical-align:baseline;
     width : 370px;
-    height: 294px;
+   
 } 
 .logo{
     margin-bottom:20px; 
@@ -493,6 +492,7 @@ background-color: var(--hover-color);
     display: flex;
     align-items: center;
     padding-top: 14px;
+    margin-top: 8px;
 }
 .icon-back{
     fill: #000000;
@@ -642,8 +642,6 @@ line-height: 24px;
 letter-spacing: 0.42px;
 text-decoration-line: underline;
 }
-
-
 .footer-mail{
     display: flex;
     position: absolute;
@@ -657,3 +655,24 @@ text-decoration-line: underline;
     top:2685px ;
     left: 760px;
 }
+.product-trumb{
+    position: relative;
+    overflow: hidden;
+}
+.product-action{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    background-color: rgba(33, 150, 243, 0.9);
+    width: 100%;
+    height: 100%;
+    padding: 63px 24px;
+    opacity: 0;
+}
+.card-item-photo:hover .product-action{
+    opacity: 1;
+}
+
