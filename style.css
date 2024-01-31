@@ -285,6 +285,9 @@ footer>a{
     margin-bottom: 50px;
     gap: 8px;    
 }
+.modal-form-policy-checkbox:checked  {  
+ background-color: #2196f3;
+}
 .card-button{
     background: #F5F4FA;
     color: #212121;
@@ -483,6 +486,9 @@ background-color: var(--hover-color);
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.20);
+    transition:
+     opacity 250ms var(--timing-function--) 250ms,
+     visibility 250ms var(--timing-function--) 250ms;
 } 
 .backdrop.is-hidden{
     opacity: 0;
@@ -499,6 +505,7 @@ background-color: var(--hover-color);
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     height: 581px;
     border-radius: 4px;
+    transition: opacity 250ms var(--timing-function--) 250ms;
 }
 .btn-close{
     margin-left: 490px;
