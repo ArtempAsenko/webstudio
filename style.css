@@ -36,7 +36,17 @@ a{
 .header-link:hover,
 .header-link:focus{
     color: var(--hover-color);
-    
+    animation-name: chageColor;
+    animation-duration: 250ms;
+    animation-timing-function: var(--timing-function--);
+    @keyframes chageColor{
+        0%{
+            color : var(--navigation-color);
+        }
+        100%{
+            color : var(--hover-color);
+        }
+    }
 }
 .contacts-link:hover,
 .contacts-link:focus{
@@ -94,6 +104,7 @@ padding-bottom: 94px;
 .btn-open:hover{
     color: var(--hover-text-color) ;
     background-color: var(--hover-color);
+
 }
 .btn-open{
     cursor: pointer;
